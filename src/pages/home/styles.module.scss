@@ -1,0 +1,8 @@
+@import '../../assets/styles/common.scss';
+
+/* Component Specific Styles */
+.styles {
+  &-main {
+    @apply mx-auto max-w-5xl px-3 pt-10;
+  }
+}
