@@ -1,6 +1,6 @@
 @import './tailwind.css';
 
 body {
-  @apply font-sans text-sm;
+  @apply font-sans text-sm antialiased;
   background-color: $background-color;
 }

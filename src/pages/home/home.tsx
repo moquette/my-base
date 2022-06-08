@@ -1,3 +1,5 @@
+import Footer from '@components/footer'
+
 import { stylesMain } from './styles.module.scss'
 
 type HomeProps = {
@@ -8,5 +10,6 @@ type HomeProps = {
 export const Home: React.FunctionComponent<HomeProps> = (pageTitle) => (
   <div className={`text-lg ${stylesMain}`}>
     <p>It works!</p>
+    <Footer />
   </div>
 )
