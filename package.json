@@ -1,6 +1,6 @@
 {
   "name": "my-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My personal and heavily biased project base. Use at your own risk.",
   "keywords": [
     "react",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:moquette/webpack-react-ts.git"
+    "url": "git@github.com:moquette/my-base.git"
   },
   "license": "MIT",
   "author": "Joaquin A. Moquette<moquette@gmail.com>",

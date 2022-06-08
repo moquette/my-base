@@ -2,7 +2,7 @@
 
 My personal and heavily biased project base. Use at your own risk.
 
-<a href="https://base.moquette.us/" rel="Link to demo"><img src="./docs/resources/cover.png" alt="Link to demo" /></a>
+<a href="https://my-base.moquette.us/" rel="Link to demo"><img src="./docs/resources/cover.png" alt="Link to demo" /></a>
 
 A Minimalist production ready Webpack/React boilerplate for TypeScript Projects.
 
