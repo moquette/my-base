@@ -3,6 +3,7 @@
 declare namespace StylesModuleScssNamespace {
   export interface IStylesModuleScss {
     stylesFooter: string
+    stylesMain: string
     themeColor: string
   }
 }

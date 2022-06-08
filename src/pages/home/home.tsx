@@ -1,4 +1,5 @@
 import Footer from '@components/footer'
+import useDocumentTitle from '@hooks/useDocumentTitle'
 
 import { stylesMain } from './styles.module.scss'
 
@@ -8,8 +9,11 @@ type HomeProps = {
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const Home: React.FunctionComponent<HomeProps> = (pageTitle) => (
-  <div className={`text-lg ${stylesMain}`}>
-    <p>It works!</p>
-    <Footer />
-  </div>
+  useDocumentTitle('React App'),
+  (
+    <div className={`text-lg ${stylesMain}`}>
+      <p>It works!</p>
+      <Footer />
+    </div>
+  )
 )
