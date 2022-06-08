@@ -8,6 +8,5 @@ type HomeProps = {
 export const Home: React.FunctionComponent<HomeProps> = (pageTitle) => (
   <div className={`text-lg ${stylesMain}`}>
     <p>It works!</p>
-    <p>Edit src/pages/home</p>
   </div>
 )
