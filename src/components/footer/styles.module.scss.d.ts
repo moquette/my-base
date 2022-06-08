@@ -2,9 +2,17 @@
 // Please do not change this file!
 declare namespace StylesModuleScssNamespace {
   export interface IStylesModuleScss {
+    fontBold: string
+    fontSans: string
+    maxW5Xl: string
+    mxAuto: string
+    pb5: string
+    px3: string
     stylesFooter: string
     stylesMain: string
+    textLg: string
     themeColor: string
+    underline: string
   }
 }
 

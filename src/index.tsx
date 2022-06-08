@@ -1,4 +1,4 @@
-import '@styles/index.scss'
+import '@styles/common.scss'
 
 import App from '@components/app'
 import { StrictMode } from 'react'

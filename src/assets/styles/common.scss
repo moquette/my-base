@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-lg antialiased;
+    background: $background-color;
+    color: $text-color;
+  }
+
+  p {
+    @apply pb-5;
+  }
+}
+
 .styles {
   &-main {
     @apply mx-auto max-w-5xl px-3 pt-10;
