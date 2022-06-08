@@ -1,6 +1,13 @@
 @import './tailwind.css';
 
-body {
-  @apply font-sans text-sm antialiased;
-  background-color: $background-color;
+@layer base {
+  body {
+    @apply font-sans text-lg antialiased;
+    background: $background-color;
+    color: $text-color;
+  }
+
+  p {
+    @apply pb-5;
+  }
 }
