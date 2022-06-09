@@ -15,23 +15,19 @@ A Minimalist production ready Webpack/React boilerplate for TypeScript Projects.
 
 ## Features
 
-- [React](https://reactjs.org/)
-- [React Router](https://reactrouter.com)
-- [Webpack](https://webpack.js.org)
-- [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer/)
-- [TailwindCSS](https://tailwindcss.com)
-- [Babel](https://babeljs.io/)
-- [Sass](https://sass-lang.com/)
-- [TypeScript 4](https://www.typescriptlang.org)
-- [Prettier](https://prettier.io) + [ESLint](http://eslint.org) + [Airbnb](https://github.com/airbnb/javascript)
-- [Husky](https://typicode.github.io/husky/#/)
-- [Lint-staged](https://github.com/okonet/lint-staged#readme)
+- [React](https://reactjs.org/) / [React Router](https://reactrouter.com)
+- [Webpack](https://webpack.js.org) / [Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer/)
+- [TailwindCSS](https://tailwindcss.com) / [Automatic Class Sorting](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier/)
+- [Sass](https://sass-lang.com/) / [Less](https://lesscss.org/) / [PostCSS](https://postcss.org/)
+- [TypeScript](https://www.typescriptlang.org) / [Babel](https://babeljs.io/)
+- [Prettier](https://prettier.io) / [ESLint](http://eslint.org) / [Airbnb](https://github.com/airbnb/javascript)
+- [Husky](https://typicode.github.io/husky/#/) / [Lint-staged](https://github.com/okonet/lint-staged#readme)
 
 ## Project
 
 I use React.js for almost every front-end project I create. Here's a solid boilerplate I use for modern React TypeScript based projects.
 
-- Base is a lean and imple alternative for CRA (Create React App);
+- My Base is a lean and imple alternative for CRA (Create React App);
 - We can eliminate all of its disadvantages by setting up dependencies and configs ourselves (add dependencies as needed) making it easier to add/modify build configs;
 - Minimal webpack and babel configs required to run a react application;
 - Production-ready build set up, with linters and pre-commit hooks.
@@ -98,22 +94,21 @@ import { EmailJS } from '../../components/EmailJS'
 import { EmailJS } from '@components/EmailJS'
 ```
 
-**Preconfigured Mappings:**
+**Preconfigured Aliases:**
+(src/tsconfig.json)
 
-"@src/*": ["src/*"], 
-"@images/*": ["src/assets/images/*"], 
-"@styles/*": ["src/assets/styles/*"], 
-"@pages/*": ["src/pages/*"], 
-"@hooks/*": ["src/hooks/*"], 
-"@components/*": ["src/components/*"] 
+```
+"@src/*" : ["src/*"],
+"@images/*" : ["src/assets/images/*"],
+"@styles/*" : ["src/assets/styles/*"],
+"@pages/*" : ["src/pages/*"],
+"@hooks/*" : ["src/hooks/*"],
+"@components/*" : ["src/components/*"]
+```
 
+## TailwindCSS / SASS
 
-Create your own in src/tsconfig.json
-
-
-## Sass and TailwindCSS
-
-Sass and TailwindCSS are both supported.
+TailwindCSS / Sass and PostCSS support.
 
 `tailwind.config.js` is located in the project's root an initialzed in `styles/global.scss` . Visit [TailwindCSS](https://tailwindcss.com/docs/configuration) for more information.
 

@@ -13,6 +13,7 @@ declare namespace StylesModuleScssNamespace {
     textLg: string
     themeColor: string
     underline: string
+    uppercase: string
   }
 }
 
