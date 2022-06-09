@@ -6,8 +6,13 @@
   &-footer {
     position: absolute;
     text-transform: uppercase;
-    bottom: 5px;
+    bottom: 0px;
     right: 15px;
     font-size: 10px;
+
+    p {
+      margin: 0;
+      padding-bottom: 5px;
+    }
   }
 }
