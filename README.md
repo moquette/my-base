@@ -42,7 +42,7 @@ I use React.js for almost every front-end project I create. Here's a solid boile
 Clone:
 
 ```bash
-git clone https://github.com/moquette/base.git
+git clone https://github.com/moquette/my-base.git
 ```
 
 ## Development
@@ -50,7 +50,7 @@ git clone https://github.com/moquette/base.git
 1: Change to project directory
 
 ```bash
-cd base
+cd my-base
 ```
 
 2: Install dependencies
@@ -65,7 +65,7 @@ yarn
 yarn start
 ```
 
-Pages served from http://localhost:3000 and [HMR](https://webpack.js.org/concepts/hot-module-replacement/) enabled.
+Pages served from http://localhost:3000.
 
 **NOTE:**
 Auto type checking, linting and formatting performed on pre-commit.
