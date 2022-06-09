@@ -100,12 +100,13 @@ import { EmailJS } from '@components/EmailJS'
 
 **Preconfigured Mappings:**
 
-"@src/*": ["src/*"],
-"@images/*": ["src/assets/images/*"],
-"@styles/*": ["src/assets/styles/*"],
-"@pages/*": ["src/pages/*"],
-"@hooks/*": ["src/hooks/*"],
-"@components/*": ["src/components/*"]
+"@src/*": ["src/*"], 
+"@images/*": ["src/assets/images/*"], 
+"@styles/*": ["src/assets/styles/*"], 
+"@pages/*": ["src/pages/*"], 
+"@hooks/*": ["src/hooks/*"], 
+"@components/*": ["src/components/*"] 
+
 
 Create your own in src/tsconfig.json
 
