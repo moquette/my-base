@@ -1,10 +1,20 @@
-import app from '../../../package.json'
-import { stylesFooter } from './styles.module.scss'
+import './styles.scss'
+import './styles.scss'
 
-export const Footer = () => (
-  <footer className={stylesFooter}>
-    <p>
-      &copy;{new Date().getFullYear()} {app.name} v{app.version}
-    </p>
-  </footer>
-)
+import app from '../../../package.json'
+
+interface FooterProps {
+  className?: string
+}
+
+export const Footer: React.FunctionComponent<FooterProps> = ({
+  className = 'app-footer',
+}) => {
+  return (
+    <footer className={`${className}`}>
+      <p>
+        &copy;{new Date().getFullYear()} {app.name} v{app.version}
+      </p>
+    </footer>
+  )
+}

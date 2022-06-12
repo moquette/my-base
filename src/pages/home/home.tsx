@@ -1,10 +1,9 @@
-import './styles.module.scss'
+import './styles.scss'
 
 import Layout from '../../layout'
 
 export const Home = () => (
   <Layout documentTitle="Welcome">
-    <p className=" pb-5 font-bold uppercase">My Base</p>
     <h2 className="font-bold">Development Stack:</h2>
     <ul className="pb-5">
       <li>React / React Router </li>

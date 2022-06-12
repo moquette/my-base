@@ -1,4 +1,4 @@
-import './styles.module.scss'
+import './styles.scss'
 
 import { Routing } from '../../routes'
 
