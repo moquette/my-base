@@ -11,10 +11,19 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": false,
+    "strict": true,
+    "alwaysStrict": true,
     "strictNullChecks": true,
+    "preserveConstEnums": true,
     "baseUrl": "./",
     "rootDir": "./",
     "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "types": [
+      "@cloudflare/workers-types",
+      "@types/jest",
+      "@types/service-worker-mock"
+    ],
+
     "paths": {
       "@/*": ["/*"],
       "@assets/*": ["src/assets/*"],
@@ -31,6 +40,6 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["src"],
+  "include": ["src", "worker"],
   "exclude": ["**/node_modules", "**/.*/"]
 }

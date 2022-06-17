@@ -1,0 +1,19 @@
+name = "koko" # todo
+route = "koko.moquette.us/*"
+account_id = "ea511701b9d7e2cdc63861cb4855de88"
+workers_dev = false # todo
+
+
+main = "./worker/index.js"
+compatibility_date = "2022-05-03"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "yarn build"
+
+
+
+
+
