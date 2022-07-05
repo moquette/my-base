@@ -1,6 +1,6 @@
 {
   "name": "my-base",
-  "version": "1.0.26",
+  "version": "1.0.27",
   "description": "My personal and heavily biased project base. Use at your own risk.",
   "keywords": [
     "react",
@@ -33,7 +33,7 @@
     "@cloudflare/kv-asset-handler": "~0.2.0",
     "@types/classnames": "^2.3.1",
     "@types/react": "^18.0.14",
-    "@types/react-dom": "^18.0.5",
+    "@types/react-dom": "^18.0.6",
     "classnames": "^2.3.1",
     "git-branch-is": "^4.0.0",
     "react": "^18.2.0",
@@ -58,8 +58,8 @@
     "@teamsupercell/typings-for-css-modules-loader": "~2.5.1",
     "@types/jest": "^28.1.4",
     "@types/service-worker-mock": "^2.0.1",
-    "@typescript-eslint/eslint-plugin": "~5.30.4",
-    "@typescript-eslint/parser": "~5.30.4",
+    "@typescript-eslint/eslint-plugin": "~5.30.5",
+    "@typescript-eslint/parser": "~5.30.5",
     "autoprefixer": "~10.4.7",
     "babel-eslint": "~10.1.0",
     "babel-loader": "~8.2.5",
@@ -115,7 +115,7 @@
     "webpack-cli": "~4.10.0",
     "webpack-dev-server": "~4.9.3",
     "webpack-merge": "~5.8.0",
-    "wrangler": "^2.0.15"
+    "wrangler": "^2.0.16"
   },
   "importSort": {
     ".ts, .tsx": {
