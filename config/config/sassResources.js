@@ -8,4 +8,4 @@
  */
 const path = require('path')
 
-export const sassResourceItems = [path.resolve(__dirname, '../../src/assets/styles/variables.scss')]
+export const sassResourceItems = []

@@ -1,6 +1,6 @@
 {
   "name": "my-base",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "My personal and heavily biased project base. Use at your own risk.",
   "keywords": [
     "react",
@@ -25,8 +25,8 @@
     "profile": "yarn build && cross-env NODE_ENV=production webpack --profile --json --config webpack.config.babel.js > ./dist/profile.json && webpack-bundle-analyzer ./dist/profile.json",
     "clear": "npx rimraf .yarn/cache .yarn/install-state.gz .yarn/unplugged dist node_modules",
     "reset": "yarn clear && yarn install",
-    "wrangler:deploy": "wrangler publish",
-    "wrangler:dev": "wrangler dev --local",
+    "publish:main": "yarn build &&wrangler pages publish dist --project-name my-base --branch main --commit-dirty=true",
+    "publish:dev": "yarn build &&wrangler pages publish dist --project-name my-base --branch dev --commit-dirty=true",
     "postinstall": "husky install"
   },
   "dependencies": {
