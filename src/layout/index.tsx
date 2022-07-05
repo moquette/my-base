@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import './styles.scss'
 
 import Footer from '@components/footer'
@@ -7,19 +8,22 @@ import React, { ReactNode } from 'react'
 
 interface LayoutProps {
   documentTitle?: string
+  className?: string
   children: ReactNode
 }
 
 export const Layout: React.FunctionComponent<LayoutProps> = ({
   documentTitle,
+  className,
   children,
 }) => {
   const title = documentTitle ? `${documentTitle} | React App` : 'React App'
+  const appClass = className ? `app ${className}` : 'app'
   useDocumentTitle(title)
   return (
-    <div className="app">
+    <div className={`${appClass}`}>
       <Header />
-      <main className="app-main">{children}</main>
+      <main>{children}</main>
       <Footer />
     </div>
   )
