@@ -2281,13 +2281,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^28.1.4":
-  version: 28.1.4
-  resolution: "@types/jest@npm:28.1.4"
+"@types/jest@npm:^28.1.5":
+  version: 28.1.5
+  resolution: "@types/jest@npm:28.1.5"
   dependencies:
     jest-matcher-utils: ^28.0.0
     pretty-format: ^28.0.0
-  checksum: 97e22c600397bb4f30e39b595f8285ae92e4eb29a1ef6d1689749e4a4da683d88ecfe717b64492f6adc4c17c1c989520c3546f938c84a7d435c6ac3acf1a2bdc
+  checksum: 994bfc25a5e767ec1506a2a7d94e60a7a5645b2e4e8444c56ae902f3a3e27ae54e821e41c1b4e7c8d7f5022bf5abfdd0460ead223ba6f2d0a194e5b2bed1ad76
   languageName: node
   linkType: hard
 
@@ -7415,7 +7415,7 @@ __metadata:
     "@pmmmwh/react-refresh-webpack-plugin": ~0.5.7
     "@teamsupercell/typings-for-css-modules-loader": ~2.5.1
     "@types/classnames": ^2.3.1
-    "@types/jest": ^28.1.4
+    "@types/jest": ^28.1.5
     "@types/react": ^18.0.15
     "@types/react-dom": ^18.0.6
     "@types/service-worker-mock": ^2.0.1
@@ -7482,7 +7482,7 @@ __metadata:
     webpack-cli: ~4.10.0
     webpack-dev-server: ~4.9.3
     webpack-merge: ~5.8.0
-    wrangler: ^2.0.18
+    wrangler: ^2.0.19
   languageName: unknown
   linkType: soft
 
@@ -10692,9 +10692,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:^2.0.18":
-  version: 2.0.18
-  resolution: "wrangler@npm:2.0.18"
+"wrangler@npm:^2.0.19":
+  version: 2.0.19
+  resolution: "wrangler@npm:2.0.19"
   dependencies:
     "@cloudflare/kv-asset-handler": ^0.2.0
     "@esbuild-plugins/node-globals-polyfill": ^0.1.1
@@ -10706,7 +10706,6 @@ __metadata:
     nanoid: ^3.3.3
     path-to-regexp: ^6.2.0
     selfsigned: ^2.0.1
-    semiver: ^1.1.0
     xxhash-wasm: ^1.0.1
   dependenciesMeta:
     fsevents:
@@ -10714,7 +10713,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: d322c6167a21ea4e05c83749542725aabcb4bef5966b844395d5c1f1d0db731687c4eca95e75ac2f0bb1cd00295e2948a60025e6af0f6dc0dae0ee6a0d0009cb
+  checksum: 567aad327dc191fa8e8f11b9082ec5189e8a8636bb2c66e49a5ca247bf7f52a91233c44dead1cc1ee4098c96961fdd8c861580f1b595aac3938d14600cc7ca26
   languageName: node
   linkType: hard
 
