@@ -6,7 +6,7 @@ const Home = () => {
   console.log('done')
   return (
     <Layout documentTitle="Welcome" className="home">
-      &lt; React: It works. /&gt;
+      &lt; it works /&gt;
     </Layout>
   )
 }
