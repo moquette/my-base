@@ -1,6 +1,6 @@
 {
   "name": "my-base",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "My personal and heavily biased project base. Use at your own risk.",
   "keywords": [
     "react",
@@ -21,7 +21,7 @@
   "scripts": {
     "start": "cross-env WEBPACK_IS_DEV_SERVER=true NODE_ENV=development webpack serve --config webpack.config.babel.js",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.babel.js",
-    "lint": "npx prettier './{src,webpack}/**/*.{js,jsx,ts,tsx,json,scss,css,md,html}' --write && yarn tsc --noEmit && npx eslint './src/**/*.{ts,tsx}' --fix",
+    "lint": "npx prettier './{src,webpack}/**/*.{js,jsx,ts,tsx,json,scss,css,md,html}' --write && yarn tsc --project tsconfig.json --noEmit && npx eslint './src/**/*.{ts,tsx}' --fix",
     "profile": "yarn build && cross-env NODE_ENV=production webpack --profile --json --config webpack.config.babel.js > ./dist/profile.json && webpack-bundle-analyzer ./dist/profile.json",
     "typecheck": "tsc --project tsconfig.json --noEmit",
     "postinstall": "husky install"

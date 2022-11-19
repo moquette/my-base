@@ -101,7 +101,7 @@ import { EmailJS } from '@components/EmailJS'
 "@src/*" : ["src/*"],
 "@images/*" : ["src/assets/images/*"],
 "@styles/*" : ["src/assets/styles/*"],
-"@pages/*" : ["src/pages/*"],
+"@views/*" : ["src/views/*"],
 "@hooks/*" : ["src/hooks/*"],
 "@components/*" : ["src/components/*"]
 ```
