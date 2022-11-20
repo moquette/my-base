@@ -1,11 +1,10 @@
-import './styles.scss'
-
 import app from '../../../package.json'
+import styles from './styles.module.css'
 
 const Footer = () => {
   return (
-    <footer className="app-footer">
-      <p>
+    <footer className={styles.footer}>
+      <p className={styles.footerCopyright}>
         &copy;{new Date().getFullYear()} {app.name} v{app.version}
       </p>
     </footer>

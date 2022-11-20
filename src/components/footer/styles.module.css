@@ -1,0 +1,11 @@
+@import '../../assets/styles/common.scss';
+
+/* Component Specific Styles */
+
+.footer {
+  @apply fixed bottom-0 right-0 m-0 pb-2 pr-2;
+}
+
+.footerCopyright {
+  @apply text-xs text-gray-400;
+}
