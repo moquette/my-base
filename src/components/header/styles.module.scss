@@ -1,0 +1,11 @@
+@import '../../assets/styles/common.scss';
+
+/* Component Specific Styles */
+
+.header {
+  @apply fixed top-0 left-0 m-0 pb-2 pl-2;
+}
+
+.headerTitle {
+  @apply font-bold uppercase;
+}

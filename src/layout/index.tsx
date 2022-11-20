@@ -1,10 +1,10 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import './styles.scss'
-
 import Footer from '@components/footer'
 import Header from '@components/header'
 import useDocumentTitle from '@hooks/useDocumentTitle'
 import React, { ReactNode } from 'react'
+
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import styles from './styles.module.css'
 
 interface LayoutProps {
   documentTitle?: string
@@ -21,7 +21,7 @@ export const Layout: React.FunctionComponent<LayoutProps> = ({
   const appClass = className ? `app ${className}` : 'app'
   useDocumentTitle(title)
   return (
-    <div className={`${appClass}`}>
+    <div className={styles.app + `${appClass}`}>
       <Header />
       <main>{children}</main>
       <Footer />

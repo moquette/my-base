@@ -1,9 +1,0 @@
-@import '../../assets/styles/common.scss';
-
-/* Component Specific Styles */
-
-.app-header {
-  &__title {
-    @apply pb-5 font-bold uppercase;
-  }
-}
